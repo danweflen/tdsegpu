@@ -36,5 +36,3 @@ class `Propagator`:
   - Implements:
     - the propagation of the code (crank-nicholson, etc) for a single timestep
     - the propagation of the code for the full timestep.
-
->>>>>>> 242fc3ce2fb4d2095fc445c3f06ddfe04fba54bb
