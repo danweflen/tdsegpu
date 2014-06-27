@@ -1,6 +1,10 @@
 tdsegpu
 
-We have ~ 6 "classes/interfaces" (these might be structs in practice, but I'm representing them as classes, "operator" might not exist in anything other than comments.  it might also use the [curiously recurring template patern](http://en.wikipedia.org/wiki/Curiously_recurring_template_pattern) so it can be a base class but not incurr runtime polymorphism costs):
+We have ~ 6 "classes/interfaces" (these might be structs in practice,
+but I'm representing them as classes, "operator" might not exist in
+anything other than comments.  it might also use the [curiously
+recurring template patern](http://en.wikipedia.org/wiki/Curiously_recurring_template_pattern)
+so it can be a base class but not incurr runtime polymorphism costs):
 
 interface `Basis`:
   - Contains: the relevant sizes of the grid.
